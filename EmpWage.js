@@ -16,18 +16,22 @@ function getWorkingHrs(employeeCheck) {
     switch(employeeCheck) {
         case IS_PartTime:
             return PartTimeHrs; 
-            console.log("Employee is HalfDay Working.") 
+            //console.log("Employee is HalfDay Working.") 
         
         case IS_FullTime:
             return FullTimeHrs;
-            console.log("Employee is PRESENT.");
-            break;
+            //console.log("Employee is PRESENT.");
+            
         default:
             return 0; 
-            console.log("Employee is ABSENT.");       
+            //console.log("Employee is ABSENT.");       
     }
 }
-   
+   /* 
+   introducing the for loop for calculating Empwage
+   here we put employeecheck in the loop
+   as well as adding the hours to get totalEmpHrs
+   */
 
 let totalEmpHrs = 0;
 for(let day = 0; day<totalWorkingDays; day++){
