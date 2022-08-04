@@ -1,5 +1,6 @@
 console.log("Welcome to the employee wage programs.");
 /*
+UC1-checking emp status
 Ability to check Employee is present or absent by using Random Function
 */
 const IS_ABSENT = 0;
